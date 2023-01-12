@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 public class GenericType <T> {
-
+   
     private T type; //field or variable
 
     //Getter and Setter

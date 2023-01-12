@@ -52,7 +52,7 @@ public class MultiThreading01 {
         for (int i = 1; i<=10; i++){
             System.out.println("Printer 4 is working..#\"+i");
         }
-        System.out.println("=====Application with thread started");
+        System.out.println("=====Application with thread ended");
         //join method waits to die/terminate (myTaskWithThread2)
         try {
             //join method waits to die/terminate (myTaskWithThread2)

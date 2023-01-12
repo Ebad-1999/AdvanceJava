@@ -23,7 +23,7 @@ public class EnumTest {
         enumMethod(TransactionType.PAYMENT);
         enumMethod(TransactionType.TRANSFER);
         enumMethod(TransactionType.OTHER);
-        //enumMethod(TransactionType.AD); //we are getting CTE
+        //enumMethod(TransactionType.AD); //we are getting Compile Time Error (CTE)
         System.out.println("----------enum methods--------");
         //values() method gives all values in array format
         System.out.println(TransactionType.values()[3]);

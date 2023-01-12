@@ -1,7 +1,7 @@
 package threads;
 
 class Printer{
-    //this 2 nd way of cynchronized thread
+    //this 2 nd way of synchronized thread
 //    synchronized void printDocument(int numOfCopies, String docName){
      void printDocument(int numOfCopies, String docName){
         try {
